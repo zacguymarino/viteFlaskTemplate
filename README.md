@@ -2,6 +2,14 @@
 
 -Install modules (npm i)
 
--Build vite project (npm run build)
+-If dev mode is desired:
 
--Run local server (flask --app main run --port 8000)
+  -----Run dev mode (npm run dev)
+
+  -----In new terminal, run local flask server (flask --debug --app main run --port 8000)
+
+-Else if production mode is desired:
+
+  -----Build vite project (npm run build)
+
+  -----Run local server (flask --app main run --port 8000)
